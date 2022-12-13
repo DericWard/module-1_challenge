@@ -9,8 +9,6 @@
 ## Install: To install this app you will need to clone the following repo: git@github.com:DericWard/module-1_challenge.git
 This can be performed by issuing the following command on your local CLI: git clone git@github.com:DericWard/module-1_challenge.git
 
-
-
 ## Credits: the source of this challenge is edX's Front End Web Development Bootcamp and can be found here: https://courses.bootcampspot.com/courses/3028/assignments/46160?module_item_id=853039
 Please not: Accessing this link will require a valid username and password to access this bootcamp.
 I also credit the edX tutors and fellow students of this bootcamp who have all been involved in solving this challenge.
