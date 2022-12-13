@@ -12,6 +12,9 @@ This can be performed by issuing the following command on your local CLI: git cl
 ## Access this app now: Visit https://dericward.github.io/module-1_challenge/
 Please not: Due to the large size of the image files the page will take a few seconds to load, thank you for your patience.
 
+## Screenshot of this app available at branch feature/assets, named AppScreenshot.PNG: 
+https://github.com/DericWard/module-1_challenge/blob/feature/assets/Assets/AppScreenshot.PNG
+
 ## Credits: the source of this challenge is edX's Front End Web Development Bootcamp and can be found here: https://courses.bootcampspot.com/courses/3028/assignments/46160?module_item_id=853039
 Please not: Accessing this link will require a valid username and password to access this bootcamp.
 I also credit the edX tutors and fellow students of this bootcamp who have all been involved in solving this challenge.
