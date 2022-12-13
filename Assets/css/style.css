@@ -1,0 +1,155 @@
+/* Changed some classes to semantic elements and combined several classes where their settings 
+were the same to avoid unnecessary repition, improve readability and reduce file size and clutter.
+See below for more specific details. Amended by Deric Ward 13th December 2022. */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Now semantic 'header' these sections were previously a class '.header' */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Navigation bar general settings. 
+Now semantic 'header' this section was previously '.header div' */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Removed '.header div ul { list-style-type: none; }' as it was redundant*/
+
+/* Navigation bar list style. 
+This section was previously '.header div ul li' */ 
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Defines the basic layout of the 'article' elements e.g. 'search engine optimization' 
+'online reputation management' and 'social media marketing'. 
+This section was previously '.content' */
+.articles {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Defines the look of the article content (text, sizes etc).
+applied class="article-content' to all 3 articles to reduce repitition.
+This section was previously 3 sections '.search-engine-optimization',
+'.online-reputation-management', '.social-media-marketing' */
+.article-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* The following sections defines the format of the images within each article. 
+Repetition has been deleted. */
+.article-content img {
+    max-height: 200px;
+}
+
+/* The following section defines the format of the h2 element within each article. 
+Repetition has been deleted. */
+.article-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*  Sidebar is now semantic 'aside', was previously a class ".benefits". */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* '.aside-content' has replaced ".benefit-lead'" ".benefit-brand" "benefit-cost.
+Avoiding unnecessary repitition. */
+.aside-content {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.aside-content h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.aside-content img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
