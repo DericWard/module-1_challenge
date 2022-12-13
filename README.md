@@ -10,6 +10,7 @@
 This can be performed by issuing the following command on your local CLI: git clone git@github.com:DericWard/module-1_challenge.git
 
 ## Access this app now: Visit https://dericward.github.io/module-1_challenge/
+Please not: Due to the large size of the image files the page will take a few seconds to load, thank you for your patience.
 
 ## Credits: the source of this challenge is edX's Front End Web Development Bootcamp and can be found here: https://courses.bootcampspot.com/courses/3028/assignments/46160?module_item_id=853039
 Please not: Accessing this link will require a valid username and password to access this bootcamp.
